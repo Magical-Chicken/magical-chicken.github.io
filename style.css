@@ -1,0 +1,62 @@
+body {
+    min-height: 100%;
+    background-color: #9aa;
+    padding: 0;
+    margin: 0;
+    font-family: 'Droid Serif', serif;
+}
+
+header {
+    margin-top: 40px;
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+}
+
+nav {
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+    transition: color linear 0.4s;
+    margin: 5px;
+}
+
+a:hover {
+    color: #048;
+    transition: color ease 0.2s;
+}
+
+.center {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 35%;
+}
+
+article {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px dashed;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+p {
+    font-size: 18px;
+    color: #222;
+}
